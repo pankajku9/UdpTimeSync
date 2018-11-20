@@ -1,5 +1,5 @@
-# UdpTimeSync
-This is implementation (in C/C++) of a simple client server system that uses UDP UNIX sockets to synchronize two machines. The client will connect to the server, and every second will print out the difference between its time and the server time.
+#  Time Synchronization over UDP
+This is implementation (in C/C++) of a simple client server system that uses UDP UNIX sockets to synchronize time between two machines. The client will connect to the server, and every second will print out the difference between its time and the server time.
 
 #Description
 
@@ -11,5 +11,5 @@ This is implementation (in C/C++) of a simple client server system that uses UDP
 
         t1 = t - d   
         t2 = t + d   
-        t1 + d = t2 – d  
+        t1 + d = t2 â€“ d  
         d = (t2 - t1)/2    
